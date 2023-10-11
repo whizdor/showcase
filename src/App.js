@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route export path = "/" element = {<Home />} />
+        <Route export path = "/gdsc" element = {<Home />} />
         <Route export path = "/projects" element = {<Project />} />
       </Routes>
     </div>
